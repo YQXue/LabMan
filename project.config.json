@@ -1,0 +1,80 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.5.1",
+	"appid": "wx33aa3b867228ae98",
+	"projectname": "LabMan",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 4,
+			"list": [
+				{
+					"id": -1,
+					"name": "PCR编译",
+					"pathName": "pages/PCR/PCR",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "mass编译",
+					"pathName": "pages/Mass/Mass",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "mine编译",
+					"pathName": "pages/mine/mine",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "Mybook编译",
+					"pathName": "pages/Mybook/Mybook",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "HPLCbook编译",
+					"pathName": "pages/HPLCbook/HPLCbook",
+					"scene": null
+				}
+			]
+		}
+	}
+}

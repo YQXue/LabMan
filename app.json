@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/PCR/PCR",
+    "pages/Mass/Mass",
+    "pages/HPLC/HPLC",
+    "pages/Yc/Yc",
+    "pages/Mybook/Mybook",
+    "pages/HPLCbook/HPLCbook",
+    "pages/Massbook/Massbook",
+    "pages/PCRbook/PCRbook",
+    "pages/Ycbook/Ycbook"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4EBFC8",
+    "navigationBarTitleText": "LabMan",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#4EBFC8",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "iconPath": "images/book.png",
+        "selectedIconPath": "images/book1.png",
+        "pagePath": "pages/index/index",
+        "text": "预约"
+      },
+      {
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index1.png",
+        "pagePath": "pages/mine/mine",
+        "test": "我的"
+      }
+    ]
+  }
+}
