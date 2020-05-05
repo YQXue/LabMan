@@ -1,6 +1,6 @@
 //app.js
 var Bmob = require('utils/Bmob-1.6.7.min.js')
-Bmob.initialize("35d1b6ed98f6ce1991081e6575ed7f31","6ff13365f1d30ee6daee18fb6b68c04b")
+Bmob.initialize("ID","Passwd")
 App({
  onLaunch: function(){
    const updateManager = wx.getUpdateManager();
