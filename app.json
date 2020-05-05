@@ -1,17 +1,25 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
     "pages/mine/mine",
-    "pages/PCR/PCR",
-    "pages/Mass/Mass",
+    "pages/logs/logs",
     "pages/HPLC/HPLC",
-    "pages/Yc/Yc",
-    "pages/Mybook/Mybook",
-    "pages/HPLCbook/HPLCbook",
+    "pages/Minehbook/Minehbook",
+    "pages/Allbook/Allbook",
+    "pages/Minembook/Minembook",
+    "pages/Mass/Mass",
     "pages/Massbook/Massbook",
-    "pages/PCRbook/PCRbook",
-    "pages/Ycbook/Ycbook"
+    "pages/gr/gr",
+    "pages/gl/gl",
+    "pages/gml/gml",
+    "pages/YC/YC",
+    "pages/YCbook/YCbook",
+    "pages/Mineybook/Mineybook",
+    "pages/msrules/msrules",
+    "pages/hplcrules/hplcrules",
+    "pages/Manager/Manager",
+    "pages/blacklist/blacklist",
+    "pages/addblacklist/addblacklist"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -28,15 +36,14 @@
       {
         "iconPath": "images/book.png",
         "selectedIconPath": "images/book1.png",
-        "pagePath": "pages/index/index",
-        "text": "预约"
+        "pagePath": "pages/index/index"
       },
       {
-        "iconPath": "images/index.png",
-        "selectedIconPath": "images/index1.png",
-        "pagePath": "pages/mine/mine",
-        "test": "我的"
+        "iconPath": "images/index1.png",
+        "selectedIconPath": "images/index.png",
+        "pagePath": "pages/mine/mine"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

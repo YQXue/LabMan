@@ -10,7 +10,8 @@
 		"minified": true,
 		"newFeature": true,
 		"nodeModules": true,
-		"autoAudits": false
+		"autoAudits": true,
+		"uglifyFileName": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.5.1",
@@ -20,6 +21,8 @@
 		"hidedInDevtools": []
 	},
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -37,8 +40,12 @@
 			"currentL": -1,
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
-			"current": 4,
+			"current": 8,
 			"list": [
 				{
 					"id": -1,
@@ -72,6 +79,55 @@
 					"id": -1,
 					"name": "HPLCbook编译",
 					"pathName": "pages/HPLCbook/HPLCbook",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "gr",
+					"pathName": "pages/gr/gr",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "gml",
+					"pathName": "pages/gml/gml",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "HPLC编译",
+					"pathName": "pages/HPLC/HPLC",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/YC/YC",
+					"pathName": "pages/YC/YC",
+					"query": "yc",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "manager",
+					"pathName": "pages/Manager/Manager",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "blacklist",
+					"pathName": "pages/blacklist/blacklist",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "addblacklist",
+					"pathName": "pages/addblacklist/addblacklist",
 					"scene": null
 				}
 			]
